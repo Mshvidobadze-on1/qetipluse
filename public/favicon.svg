@@ -1,0 +1,23 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="qpBgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="45%" stop-color="#6D28D9" />
+      <stop offset="100%" stop-color="#DB2777" />
+    </linearGradient>
+    <linearGradient id="qpRingGrad" x1="12" y1="12" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="65%" stop-color="#E0E7FF" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="qpPlusGrad" x1="34" y1="10" x2="56" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#qpBgGrad)" />
+  <path d="M30 15C20.6112 15 13 22.6112 13 32C13 41.3888 20.6112 49 30 49C34.25 49 38.135 47.44 41.11 44.86" stroke="url(#qpRingGrad)" stroke-width="6.5" stroke-linecap="round" />
+  <path d="M32 34L46 48" stroke="url(#qpRingGrad)" stroke-width="6.5" stroke-linecap="round" />
+  <circle cx="45" cy="21" r="10.5" fill="#090A0F" fill-opacity="0.35" />
+  <path d="M45 14.5V27.5M38.5 21H51.5" stroke="url(#qpPlusGrad)" stroke-width="4.5" stroke-linecap="round" />
+</svg>
